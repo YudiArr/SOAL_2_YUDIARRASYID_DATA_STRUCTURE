@@ -24,10 +24,19 @@ public class Main {
         System.out.println();
 
         id1.tampilkanInfo();
+        id1.cekKelulusan();
+
         id2.tampilkanInfo();
+        id2.cekKelulusan();
+
         id3.tampilkanInfo();
+        id3.cekKelulusan();
+
         id4.tampilkanInfo();
+        id4.cekKelulusan();
+
         id5.tampilkanInfo();
+        id5.cekKelulusan();
 
         Scanner input = new Scanner(System.in);
 

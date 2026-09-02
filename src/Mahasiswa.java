@@ -15,7 +15,7 @@ public class Mahasiswa {
         System.out.println("NIM      :" + nim);
         System.out.println("Jurusan  :" + jurusan);
         System.out.println("IPK      :" + ipk);
-        System.out.println();
+
     }
     public double getIpk() {
         return ipk;
@@ -28,8 +28,10 @@ public class Mahasiswa {
     public void cekKelulusan() {
         if (ipk >= 3.00) {
             System.out.println("Status Mahasiswa : Lulus");
+            System.out.println();
         } else {
             System.out.println("Status Mahasiswa : Belum Lulus");
+            System.out.println();
         }
     }
 
